@@ -1,0 +1,101 @@
+[
+  {
+    "id": "G0",
+    "title": "Consortium Ready",
+    "owner": "BMV",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G1",
+    "title": "Host Ready",
+    "owner": "BMV/München/PCO",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G2",
+    "title": "Scientific Ready",
+    "owner": "TUM",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G3",
+    "title": "Europe Ready",
+    "owner": "ECTRI",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G4",
+    "title": "Production Ready",
+    "owner": "PCO",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G5",
+    "title": "Participation Ready",
+    "owner": "PCO",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G6",
+    "title": "Demo/Expo Ready",
+    "owner": "Fraunhofer",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G7",
+    "title": "City/Safety Ready",
+    "owner": "München/PCO",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G8",
+    "title": "Full Rehearsal",
+    "owner": "PCO/BMV",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G9",
+    "title": "Event Ready",
+    "owner": "BMV/PCO/München",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "G10",
+    "title": "Legacy Ready",
+    "owner": "ECTRI/TUM",
+    "status": "OPEN",
+    "exposure": "NORMAL",
+    "traffic_light": "WHITE",
+    "source_flag": "SOURCE"
+  }
+]

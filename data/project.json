@@ -1,0 +1,26 @@
+{
+  "id": "TRA2030",
+  "title": "TRA 2030 — Master Project & Delivery Control",
+  "baseline": "18.09.2026",
+  "version": "1.2",
+  "source": "TRA_2030_Projektplan_FINAL_Vollstaendig_mit_Venue_Raumplanung_September_2026.pdf",
+  "counts": {
+    "milestones": 16,
+    "gates": 11,
+    "wp": 7,
+    "event_delivery": 10,
+    "operative_units": 166,
+    "gaps": 17
+  },
+  "budget_flags": {
+    "CSA_target_eur": 1600000,
+    "CSA_working_eur": 1640000,
+    "event_delivery_eur": 6000000,
+    "note": "No silent reconciliation; source requires bottom-up harmonisation."
+  },
+  "data_protection": {
+    "costs": "PROTECTED",
+    "public_frontend": "NO_CONFIDENTIAL_COSTS"
+  },
+  "build": "Visual Control Center"
+}

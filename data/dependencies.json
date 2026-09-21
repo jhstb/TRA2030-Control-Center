@@ -1,0 +1,50 @@
+[
+  {
+    "from": "G2",
+    "to": "G8",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "G4",
+    "to": "G8",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "G5",
+    "to": "G8",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "G6",
+    "to": "G8",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "G7",
+    "to": "G8",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "G8",
+    "to": "M13",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "M13",
+    "to": "G9",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  },
+  {
+    "from": "G9",
+    "to": "M14",
+    "type": "FS",
+    "source_flag": "NETWORK_DERIVED"
+  }
+]

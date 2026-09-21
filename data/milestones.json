@@ -1,0 +1,130 @@
+[
+  {
+    "id": "M1",
+    "title": "Consortium/roles confirmed",
+    "period": "Q4/2026–Q2/2027",
+    "owner": "BMV",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M2",
+    "title": "Venue shortlist + Host capacity",
+    "period": "Q2/2027",
+    "owner": "BMV/PCO/München",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M3",
+    "title": "CSA proposal finalized",
+    "period": "Q2–Q3/2027",
+    "owner": "BMV/TUM/ECTRI",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M4",
+    "title": "CSA submission",
+    "period": "07.10.2027",
+    "owner": "BMV/Consortium",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M5",
+    "title": "TRA2028 handover complete",
+    "period": "2028",
+    "owner": "ECTRI/TUM",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M6",
+    "title": "European Partner Charter + Partnership Programme",
+    "period": "2028",
+    "owner": "ECTRI/BMV",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M7",
+    "title": "Thematic Pillars + Industry Agenda",
+    "period": "2028–2029",
+    "owner": "TUM/Fraunhofer/BMV",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M8",
+    "title": "Call/Review completed",
+    "period": "2029",
+    "owner": "TUM",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M9",
+    "title": "Venue/Production contracts and delivery packages",
+    "period": "2029",
+    "owner": "PCO/BMV/München",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M10",
+    "title": "Registration & Digital Platform live",
+    "period": "2029",
+    "owner": "PCO",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M11",
+    "title": "Demo/Expo/Technical Visit readiness",
+    "period": "2029–2030",
+    "owner": "Fraunhofer/Fachpartner",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M12",
+    "title": "Security/accessibility/mobility gate",
+    "period": "Q1–Q2/2030",
+    "owner": "München/PCO",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M13",
+    "title": "Full operational rehearsal",
+    "period": "Q2/2030",
+    "owner": "PCO/BMV",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M14",
+    "title": "TRA 2030 delivered",
+    "period": "2030",
+    "owner": "BMV/PCO/all",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M15",
+    "title": "Proceedings/Journal/Impact/Legacy",
+    "period": "2030–2031",
+    "owner": "TUM/ECTRI/WP7",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "M16",
+    "title": "Final legacy / knowledge transfer",
+    "period": "2031",
+    "owner": "ECTRI/TUM",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  }
+]

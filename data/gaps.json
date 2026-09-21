@@ -1,0 +1,121 @@
+[
+  {
+    "id": "E1",
+    "title": "Formal BMV role / Coordinator / Beneficiary",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E2",
+    "title": "München Beneficiary vs. Host/Associated",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E3",
+    "title": "Venue / Host Capacity",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E4",
+    "title": "Economic Plan / additional financing",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E5",
+    "title": "PCO Leistungsbild / Beschaffung",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E6",
+    "title": "European Commitments",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E7",
+    "title": "TRA2028 Handover",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E8",
+    "title": "Presidency 2030 engagement",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E9",
+    "title": "Industry Advisory Board",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E10",
+    "title": "Scientific architecture",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E11",
+    "title": "Urban mobility / Munich demos",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E12",
+    "title": "Mobility partners",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E13",
+    "title": "Security/accessibility",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E14",
+    "title": "CSA budget reallocation",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E15",
+    "title": "Event Delivery financing",
+    "priority": "CRITICAL",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E16",
+    "title": "Procurement packages",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  },
+  {
+    "id": "E17",
+    "title": "Impact KPIs / baselines",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "source_flag": "SOURCE"
+  }
+]
