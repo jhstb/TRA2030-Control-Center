@@ -1,0 +1,123 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TRA 2030 — Executive Control Cockpit V3.8</title><link rel="stylesheet" href="css/styles.css"><style>
+/* V3.8.1 — Executive Hero / Project Identity */
+.tra-hero{
+  position:relative;
+  overflow:hidden;
+  min-height:285px;
+  margin:0 0 18px 0;
+  border-radius:24px;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(82,164,177,.24), transparent 30%),
+    radial-gradient(circle at 20% 85%, rgba(80,135,150,.16), transparent 32%),
+    linear-gradient(135deg,#08202a 0%,#103a46 48%,#155866 100%);
+  box-shadow:0 16px 40px rgba(7,35,44,.16);
+  color:#fff;
+}
+.tra-hero:after{
+  content:"";
+  position:absolute; inset:0;
+  background:linear-gradient(90deg,rgba(4,21,29,.86) 0%,rgba(5,28,37,.67) 52%,rgba(6,35,44,.35) 100%);
+  pointer-events:none;
+}
+.tra-hero-grid{
+  position:relative; z-index:2;
+  display:grid; grid-template-columns:minmax(0,1fr) 300px;
+  gap:28px; align-items:end;
+  min-height:285px; padding:30px 34px 28px;
+}
+.tra-hero-kicker{
+  font-size:12px; font-weight:800; letter-spacing:.18em;
+  text-transform:uppercase; opacity:.78; margin-bottom:14px;
+}
+.tra-hero-title{
+  margin:0; font-size:clamp(36px,4vw,58px); line-height:.98;
+  letter-spacing:-.035em; font-weight:850;
+}
+.tra-hero-title span{display:block}
+.tra-hero-sub{
+  margin-top:14px; max-width:720px;
+  font-size:17px; line-height:1.4; color:rgba(255,255,255,.88);
+}
+.tra-hero-tagline{
+  margin-top:18px; font-size:11px; font-weight:800;
+  letter-spacing:.14em; text-transform:uppercase;
+  color:rgba(255,255,255,.76);
+}
+.tra-hero-side{
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:10px; align-self:end;
+}
+.tra-proof{
+  padding:14px 15px; border-radius:16px;
+  border:1px solid rgba(255,255,255,.20);
+  background:rgba(7,26,34,.42);
+  backdrop-filter:blur(8px);
+}
+.tra-proof b{display:block; font-size:20px; line-height:1.1}
+.tra-proof small{display:block; margin-top:5px; font-size:10px;
+  letter-spacing:.08em; text-transform:uppercase; opacity:.72}
+.tra-hero-pill{
+  position:absolute; z-index:3; right:28px; top:24px;
+  padding:8px 12px; border-radius:999px;
+  border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.10);
+  font-size:10px; font-weight:800; letter-spacing:.14em;
+  text-transform:uppercase;
+}
+@media(max-width:900px){
+  .tra-hero-grid{grid-template-columns:1fr; padding:28px 24px 24px}
+  .tra-hero-side{grid-template-columns:repeat(4,1fr)}
+}
+@media(max-width:620px){
+  .tra-hero{min-height:0}
+  .tra-hero-grid{min-height:0}
+  .tra-hero-side{grid-template-columns:1fr 1fr}
+  .tra-hero-pill{right:18px;top:18px}
+  .tra-hero-title{font-size:38px}
+}
+</style>
+<style>
+/* V3.8.3 — brighter mobility hero */
+.tra-hero{background:#12333d!important;isolation:isolate}
+.tra-hero:after{
+  background:linear-gradient(90deg,rgba(3,20,28,.70) 0%,rgba(4,28,37,.42) 48%,rgba(4,30,39,.16) 100%)!important;
+}
+.tra-hero .tra-mobility-silhouette{
+  position:absolute;inset:0;width:100%;height:100%;z-index:0;
+  opacity:1!important;filter:brightness(1.28) saturate(1.06);
+}
+.tra-hero-grid,.tra-hero-pill{z-index:2!important}
+</style>
+<style>
+/* V3.8.4 — photographic mobility hero */
+.tra-hero{
+  background-image:url("assets/tra2030-mobility-hero.jpg")!important;
+  background-size:cover!important;
+  background-position:center 56%!important;
+  background-repeat:no-repeat!important;
+  isolation:isolate;
+}
+.tra-hero .tra-mobility-silhouette{display:none!important}
+.tra-hero:after{
+  background:
+    linear-gradient(90deg,rgba(3,20,28,.76) 0%,rgba(4,28,37,.42) 45%,rgba(4,30,39,.14) 100%)!important;
+  z-index:1!important;
+}
+.tra-hero-grid,.tra-hero-pill{z-index:2!important}
+</style>
+<style>
+/* V3.8.5 — Executive live status ribbon */
+.exec-status-ribbon{display:grid;grid-template-columns:minmax(180px,1.25fr) repeat(4,minmax(105px,.72fr)) auto;gap:0;align-items:center;margin:0 0 18px;min-height:58px;border:1px solid #d9e3e7;border-radius:16px;background:rgba(255,255,255,.90);box-shadow:0 6px 18px rgba(18,50,62,.06);overflow:hidden}
+.exec-status-left{display:flex;align-items:center;gap:10px;padding:10px 16px}
+.exec-status-left b,.exec-status-item span{display:block;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:#70848c}
+.exec-status-left small{display:block;margin-top:2px;font-size:12px;font-weight:800;color:#1b6b4f}
+.exec-status-dot{width:10px;height:10px;border-radius:50%;background:#57ad83;box-shadow:0 0 0 4px rgba(87,173,131,.13)}
+.exec-status-item{padding:9px 14px;border-left:1px solid #e3eaed}
+.exec-status-item b{display:block;margin-top:3px;font-size:11px;color:#173746}
+.exec-status-action{align-self:stretch;border:0;border-left:1px solid #dce5e8;background:#f4faf8;color:#17634d;font-size:11px;font-weight:800;padding:0 17px;cursor:pointer}
+.exec-status-action:hover{background:#eaf5f0}
+@media(max-width:1050px){.exec-status-ribbon{grid-template-columns:1fr 1fr 1fr}.exec-status-left{grid-column:span 3}.exec-status-action{min-height:42px}}
+@media(max-width:650px){.exec-status-ribbon{grid-template-columns:1fr 1fr}.exec-status-left{grid-column:span 2}.exec-status-action{grid-column:span 2;min-height:44px}}
+</style>
+</head><body><header class="topbar"><div class="brand-block"><b>TRA 2030</b><small>Transport Research Arena</small></div><div class="header-divider"></div><div class="header-title"><strong>Master Project &amp; Delivery Control</strong><span>Baseline 18.09.2026 · V3.8</span></div><div class="header-motto"><em>Shaping the mobility of tomorrow.</em><small>Munich · ICM · 2030</small></div></header><nav></nav><main>
+</main><script src="js/engine.js"></script><script src="js/local-data.js"></script><script src="js/app.js?v=380"></script></body></html>
